@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <title>Weather App</title>
+</head>
+<body>
+   
+      <section class="top-banner">
+        <div class="container" id="header">
+          <h1 class="heading" style="color:rgb(255, 208, 208); text-decoration: underline;">Weather App</h1><br><br><br>
+          <form>
+              <div class="container" style="display:flex; justify-content: center;">
+            <input type="text" placeholder="Type your city...">
+            <button type="submit" style="background-color: coral;">SUBMIT</button>
+            <span class="msg"></span>
+        </div>
+          </form>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+      <footer class="page-footer">
+        
+      </footer> 
+</body>
+<script src="app.js"></script>
+</html>
